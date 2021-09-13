@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbukuba <chrisbukuba058@gmail.com>         +#+  +:+       +#+        */
+/*   By: cbukuba <cbukuba@student.s19.be>         +#+  +:+       +#+          */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 10:24:41 by cbukuba           #+#    #+#             */
 /*   Updated: 2021/09/08 14:13:46 by cbukuba          ###   ########.fr       */

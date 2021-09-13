@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbukuba <cbukuba@student.s19.be>         +#+  +:+       +#+        */
+/*   By: cbukuba <cbukuba@student.s19.be>         +#+  +:+       +#+          */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/11 12:24:37 by cbukuba           #+#    #+#             */
 /*   Updated: 2021/09/13 10:47:25 by cbukuba          ###   ########.fr       */
@@ -12,10 +12,10 @@
 
 #include <unistd.h>
 
-void	ft_putchar(int c)
+/*void	ft_putchar(int c)
 {
 	write(1, &c, 1);
-}
+}*/
 
 void	ft_putnbr(int nb)
 {

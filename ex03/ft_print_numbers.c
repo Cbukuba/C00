@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbukuba <chrisbukuba058@gmail.com>         +#+  +:+       +#+        */
+/*   By: cbukuba <cbukuba@student.s19.be>         +#+  +:+       +#+          */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 12:46:50 by cbukuba           #+#    #+#             */
 /*   Updated: 2021/09/08 13:52:18 by cbukuba          ###   ########.fr       */

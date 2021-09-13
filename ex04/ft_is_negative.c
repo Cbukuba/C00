@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbukuba <chrisbukuba058@gmail.com>         +#+  +:+       +#+        */
+/*   By: cbukuba <cbukuba@student.s19.be>         +#+  +:+       +#+          */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 13:04:47 by cbukuba           #+#    #+#             */
 /*   Updated: 2021/09/08 14:13:31 by cbukuba          ###   ########.fr       */

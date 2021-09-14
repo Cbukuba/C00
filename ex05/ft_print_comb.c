@@ -25,7 +25,7 @@ void	write_chfr(int a, int b, int c)
 	tab[1] = b + '0';
 	tab[2] = c + '0';
 	write(1, &tab, 3);
-	if (tab[0] != '7' && tab[1] != '8' && tab[2] != '9')
+	if (tab[0] != '7' || tab[1] != '8' || tab[2] != '9')
 	{
 		ft_putchar(',');
 		ft_putchar(' ');

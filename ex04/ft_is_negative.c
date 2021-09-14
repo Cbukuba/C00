@@ -22,7 +22,6 @@ void	ft_is_negative(int n)
 	{
 		write(1, "P", 1);
 	}
-	return (0);
 }
 
 /*int	main(void)
@@ -32,5 +31,4 @@ void	ft_is_negative(int n)
 	n = -6;
 	ft_is_negative(-6);
 	return (0);
-}
-*/
+}*/

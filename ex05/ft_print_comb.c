@@ -12,6 +12,11 @@
 
 #include <unistd.h>
 
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 void	write_chfr(int a, int b, int c)
 {
 	char	tab[4];
@@ -19,8 +24,12 @@ void	write_chfr(int a, int b, int c)
 	tab[0] = a + '0';
 	tab[1] = b + '0';
 	tab[2] = c + '0';
-	tab[4] = ',';
-	write(1, &tab, 4);
+	write(1, &tab, 3);
+	if (tab[0] != '7' && tab[1] != '8' && tab[2] != '9')
+	{
+		ft_putchar(',');
+		ft_putchar(' ');
+	}
 }
 
 void	ft_print_comb(void)

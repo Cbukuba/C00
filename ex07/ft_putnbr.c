@@ -12,13 +12,19 @@
 
 #include <unistd.h>
 
-/*void	ft_putchar(int c)
+void	ft_putchar(int c)
 {
 	write(1, &c, 1);
-}*/
+}
 
 void	ft_putnbr(int nb)
 {
+	if (nb == -2147483648)
+	{
+		ft_putchar('-');
+		ft_putchar('2');
+		nb = 147483648;
+	}
 	if (nb < 0)
 	{
 		ft_putchar('-');
@@ -37,5 +43,5 @@ void	ft_putnbr(int nb)
 
 /*int	main(void)
 {
-	ft_putnbr(- 4213435);
+	ft_putnbr(-2147483648);
 }*/
